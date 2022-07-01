@@ -5,7 +5,7 @@ import '../../../../core/use_cases/use_case.dart';
 import '../entities/number_trivia.dart';
 import '../repositories/number_trivia_repository.dart';
 
-class GetConcreteNumberTrivia implements UseCase<NumberTrivia, Params>{
+class GetConcreteNumberTrivia implements UseCase<NumberTrivia, Params> {
   GetConcreteNumberTrivia(this.repository);
 
   final NumberTriviaRepository repository;
